@@ -1,74 +1,42 @@
-# 💳 Credit Card Customer Analysis & Machine Learning
+💳 Credit Card Customer Analysis
 
-## 📌 Project Overview
+A Machine Learning project using Python to analyze credit card customer data and build a classification model.
 
-This project focuses on analyzing a **Credit Card dataset** using Python and applying **Machine Learning techniques** to build and evaluate a predictive classification model.
+🛠️ Technologies
 
-The project covers the complete workflow of a Machine Learning project, starting from **data loading and preprocessing** to **model building and evaluation**.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- SMOTE
 
----
+🔍 Project Steps
 
-## 🎯 Objectives
+- Data Collection & Understanding
+- Data Preprocessing
+- Exploratory Data Analysis
+- Label Encoding & One-Hot Encoding
+- Handling Class Imbalance using SMOTE
+- Machine Learning Model Building
+- Prediction & Evaluation
 
-* Understand and explore the Credit Card dataset.
-* Perform data cleaning and preprocessing.
-* Handle categorical and numerical features.
-* Encode categorical variables into numerical form.
-* Analyze the relationship between different features and the target variable.
-* Handle class imbalance using **SMOTE**.
-* Split the dataset into training and testing sets.
-* Build Machine Learning classification models.
-* Evaluate model performance using different evaluation metrics.
-* Identify the model that provides better classification performance.
+📈 Evaluation
 
----
+Models were evaluated using:
 
-## 🛠️ Technologies & Libraries Used
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
 
-### Programming Language
+📂 Dataset
 
-* 🐍 Python
+Credit Card Dataset – UCI Machine Learning Repository
 
-### Libraries
+👩‍💻 Author
 
-* **Pandas** – Data manipulation and analysis
-* **NumPy** – Numerical operations
-* **Matplotlib** – Data visualization
-* **Seaborn** – Statistical visualization
-* **Scikit-learn** – Machine Learning and preprocessing
-* **Imbalanced-learn** – Handling imbalanced datasets using SMOTE
-
----
-
-## 📂 Project Workflow
-
-The project follows these major steps:
-
-### 1. 📥 Data Collection
-
-The Credit Card dataset was obtained from the **UCI Machine Learning Repository**.
-
-### 2. 🔍 Data Understanding
-
-The dataset was explored to understand:
-
-* Number of rows and columns
-* Feature names
-* Data types
-* Missing values
-* Statistical information
-* Target variable distribution
-
-### 3. 🧹 Data Preprocessing
-
-The following preprocessing techniques were performed:
-
-* Handling missing values
-* Checking duplicate records
-* Removing unnecessary columns
-* Identifying numerical and categorical features
-* Encoding categorical variables
-
-### 4. 🔢 Feature Encoding
-
-Categorical
+Shajeena R
+BCA Student | Python | Machine Learning
